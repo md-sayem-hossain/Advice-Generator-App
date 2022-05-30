@@ -70,7 +70,7 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 35%;
+    width: 500px;
     background-color: var(--dark_grayish_blue);
     padding: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.226);
@@ -79,7 +79,9 @@ img {
 
 .advice-card p {
     color: var(--neon_green);
-    font-size: 18px;
+  font-size: 18px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 }
 
 .advice-card h1 {
@@ -101,7 +103,7 @@ footer {
     position: absolute;
     bottom: 0;
     height: 40px;
-    width: 99%;
+    width: 1500px;
 }
 
 footer a {
@@ -120,7 +122,7 @@ footer a {
         display: block;
     }
     .advice-card{
-        width: 60%; 
+        width: 400px; 
      }
      footer  {
         height: 30px;
