@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root {
+    --light_cyan: hsl(193, 38%, 86%);
+    --neon_green: hsl(150, 100%, 66%);
+    --grayish_blue: hsl(217, 19%, 38%);
+    --dark_grayish_blue: hsl(217, 19%, 24%);
+    --dark_blue: hsl(218, 23%, 16%);
+
+    --default_font: 28px;
+}
+
+body {
+    background-color: var(--dark_blue);
+    font-family: 'Manrope', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+.center-all {
+    text-align: center;
+    margin: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+.dice-div {
+    background-color: var(--neon_green);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+    margin: auto;
+}
+
+.dice-div .dice-svg {
+    margin-top: 18px;
+}
+
+.dice-div:hover {
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 0 15px var(--neon_green);
+    cursor: pointer;
+}
+
+.divider-desktop {
+    margin: auto;
+    display: block;
+}
+
+.divider-mobile {
+    display: none;
+}
+
+
+
+
+
+.advice-card {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    background-color: var(--dark_grayish_blue);
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.226);
+    border-radius: 20px;
+}
+
+.advice-card p {
+    color: var(--neon_green);
+    font-size: 18px;
+}
+
+.advice-card h1 {
+    font-size: var(--default_font);
+    color: white;
+    font-weight: 400;
+}
+
+.dice-div {
+    position: relative;
+    z-index: 22222;
+    margin-top: -40px;
+    top: 50px
+}
+
+footer {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 99%;
+}
+
+footer a {
+    color: var(--neon_green) !important;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .divider-desktop {
+        display: none;
+    }
+
+    .divider-mobile {
+        margin: auto;
+        display: block;
+    }
+    .advice-card{
+        width: 60%; 
+     }
+     footer  {
+        height: 30px;
+     }
+     footer a{
+         font-size: 13px;
+      }
+}
