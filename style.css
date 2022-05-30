@@ -75,7 +75,7 @@ img {
     padding: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.226);
     border-radius: 20px;
-}
+ }
 
 .advice-card p {
     color: var(--neon_green);
@@ -86,6 +86,7 @@ img {
     font-size: var(--default_font);
     color: white;
     font-weight: 400;
+    margin-bottom: 50px;
 }
 
 .dice-div {
