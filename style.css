@@ -39,10 +39,11 @@ img {
     border-radius: 50%;
     transition: 0.2s ease-in-out;
     margin: auto;
+    border: none;
 }
 
 .dice-div .dice-svg {
-    margin-top: 18px;
+    margin-top: 5px;
 }
 
 .dice-div:hover {
